@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.flex{
+  display:flex;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.space-around {
+  justify-content: space-around;
+}
+.pad {
+  padding:15px;
+}
+.pad-left {
+  padding-left:15px;
+}
+.pad-right {
+  padding-right:15px;
+}
+.pad-top {
+  padding-top:15px;
+}
+.pad-bottom {
+  padding-bottom:15px;
+}

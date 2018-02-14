@@ -11,6 +11,8 @@ import { NavComponent } from './nav/nav.component';
 import { EntertainmentComponent } from './entertainment/entertainment.component';
 import { AboutComponent } from './about/about.component';
 import { HomeComponent } from './home/home.component';
+import { TopMenuComponent } from './top-menu/top-menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { HomeComponent } from './home/home.component';
     NavComponent,
     EntertainmentComponent,
     AboutComponent,
-    HomeComponent
+    HomeComponent,
+    TopMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

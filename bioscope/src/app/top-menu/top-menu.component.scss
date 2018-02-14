@@ -1,0 +1,13 @@
+ul {
+  background-color: black;
+  align-items:center;
+  height:50px;
+  >li {
+    list-style: none;
+    padding:0 20px;
+    color:white;
+    &:last-child{
+      margin-left:auto;
+    }
+  }
+}
